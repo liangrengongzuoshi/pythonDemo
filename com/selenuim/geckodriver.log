@@ -1,0 +1,16 @@
+1497691467743	geckodriver	INFO	Listening on 127.0.0.1:62844
+1497691469783	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1497691470334	addons.manager	DEBUG	Application has been upgraded
+1497691470334	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < AddonManagerInternal.validateBlocklist()@resource://gre/modules/AddonManager.jsm:700 < AddonManagerInternal.startup()@resource://gre/modules/AddonManager.jsm:870 < this.AddonManagerPrivate.startup()@resource://gre/modules/AddonManager.jsm:3033 < amManager.prototype.observe()@resource://gre/components/addonManager.js:65
+1497691470336	addons.manager	DEBUG	Completed startup sequence
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1677: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1497691470926	Marionette	INFO	Listening on port 62851
+1497691471330	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** Blocklist::_preloadBlocklistFile: blocklist is disabled
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2585: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/FileUtils.jsm, line 70: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=j&json=1&p=3&sid=1463_21120_18559_20719&req=2&csor=1&cb=jQuery110206668292801900448_1497691472960&_=1497691472962, line 1: TypeError: jQuery110206668292801900448_1497691472960 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=java&json=1&p=3&sid=1463_21120_18559_20719&req=2&csor=4&pwd=jav&cb=jQuery110206668292801900448_1497691472960&_=1497691472965, line 1: TypeError: jQuery110206668292801900448_1497691472960 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ja&json=1&p=3&sid=1463_21120_18559_20719&req=2&csor=2&pwd=j&cb=jQuery110206668292801900448_1497691472960&_=1497691472963, line 1: TypeError: jQuery110206668292801900448_1497691472960 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=jav&json=1&p=3&sid=1463_21120_18559_20719&req=2&csor=3&pwd=ja&cb=jQuery110206668292801900448_1497691472960&_=1497691472964, line 1: TypeError: jQuery110206668292801900448_1497691472960 is not a function
+1497691478603	Marionette	INFO	New connections will no longer be accepted
