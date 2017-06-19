@@ -4,6 +4,13 @@
 '''
 
 '''
+定义：
+    ll = list()
+    ll = list([1, 2, 3])
+    ll = [1, 2, 3]
+'''
+
+'''
 1    list.append(obj)    在列表末尾添加新的对象
 2    list.count(obj)    统计某个元素在列表中出现的次数
 3    list.extend(seq)    在列表末尾一次性追加另一个序列中的多个值（用新列表扩展原来的列表）
@@ -24,9 +31,6 @@ del list[index:index]    通过下标删除元素
 4    min(list)    返回列表元素最小值
 5    list(seq)    将元组转换为列表
 '''
-
-
-
 
 if __name__ == '__main__':
     list1 = [1,2,"4", 5, 6]
@@ -49,5 +53,8 @@ if __name__ == '__main__':
     print(tuple2)
     
     
+    ll = list([1,2,3,"32"])
+    ll = list()
+    print(ll)
     
     pass
